@@ -1,0 +1,95 @@
+# xcode noise
+build
+*.pbxuser
+*.mode1v3
+*.mode1
+*.nib
+*.xccheckout
+*.xcscheme
+xcuserdata
+*.xcworkspacedata
+*.xcscmblueprint
+
+# vc++ noise
+*.suo
+*.aps
+*.sdf
+*.opensdf
+Release
+Debug
+Release 2012
+Release 2014
+Release Fin25
+
+# old skool
+*.svn
+
+# osx noise
+profile
+*.old
+*.rsrc
+
+-Release
+-Archive
+-Archives
+win
+x64
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.obj
+ 
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.sit
+*.sitx
+ 
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.tlog
+ 
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
+
+# Patterson Plugins stuff
+-retired
+-Test Cases
+-TestCases
+-Test Cases Etc
+
+AdHoc
+AutoOpti
+Generic
+JW Plugins
+RGP Prefs Copy
+Lessons Learned
+Template
+Tie Mover/-Link
+
+
