@@ -6,6 +6,9 @@ Abstract:
 Part of Core Audio AUInstrument Base Classes
 */
 
+#ifndef __LOCKFREEFIFO_H_
+#define __LOCKFREEFIFO_H_
+
 #include <libkern/OSAtomic.h>
 
 template <class ITEM>
@@ -128,3 +131,4 @@ private:
 	ITEM *mItems;
 };
 
+#endif //__LOCKFREEFIFO_H_

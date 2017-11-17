@@ -18,7 +18,7 @@ AUDIOCOMPONENT_ENTRY(AUMIDIEffectFactory, AUMidiPassThru)
 //	AUMidiPassThru::SetProperty
 //
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-AUMidiPassThru::AUMidiPassThru(AudioUnit component) : AUMIDIEffectBase(component), mOutputPacketFIFO(LockFreeFIFO<MIDIPacket>(32))
+AUMidiPassThru::AUMidiPassThru(AudioUnit component) : AUInstrumentBase(component,1,1), mOutputPacketFIFO(LockFreeFIFO<MIDIPacket>(32))
 {
 	CreateElements();
     
@@ -54,7 +54,7 @@ OSStatus AUMidiPassThru::GetPropertyInfo(AudioUnitPropertyID inID, AudioUnitScop
                 return noErr;
         }
 	}
-	return AUMIDIEffectBase::GetPropertyInfo(inID, inScope, inElement, outDataSize, outWritable);
+	return AUInstrumentBase::GetPropertyInfo(inID, inScope, inElement, outDataSize, outWritable);
 }
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -75,7 +75,7 @@ OSStatus AUMidiPassThru::GetProperty( AudioUnitPropertyID inID, AudioUnitScope i
                 return noErr;
 		}
 	}
-	return AUMIDIEffectBase::GetProperty(inID, inScope, inElement, outData);
+	return AUInstrumentBase::GetProperty(inID, inScope, inElement, outData);
 }
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -93,7 +93,7 @@ OSStatus AUMidiPassThru::SetProperty(	AudioUnitPropertyID inID, AudioUnitScope i
             return noErr;
         }
     }
-	return AUMIDIEffectBase::SetProperty(inID, inScope, inElement, inData, inDataSize);
+	return AUInstrumentBase::SetProperty(inID, inScope, inElement, inData, inDataSize);
 }
 
 

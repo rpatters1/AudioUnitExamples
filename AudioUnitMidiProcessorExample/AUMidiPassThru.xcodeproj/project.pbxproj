@@ -75,6 +75,18 @@
 		8BC6025C073B072D006C4272 /* AUMidiPassThru.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC6025B073B072D006C4272 /* AUMidiPassThru.h */; };
 		8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		B5EFFF351FBF64AF0047D866 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EFFF341FBF64AF0047D866 /* CoreMIDI.framework */; };
+		B5EFFF3E1FBF6A270047D866 /* AUInstrumentBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EFFF3C1FBF6A270047D866 /* AUInstrumentBase.cpp */; };
+		B5EFFF3F1FBF6A270047D866 /* AUInstrumentBase.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFFF3D1FBF6A270047D866 /* AUInstrumentBase.h */; };
+		B5EFFF481FBF6B310047D866 /* MIDIControlHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFFF401FBF6B310047D866 /* MIDIControlHandler.h */; };
+		B5EFFF491FBF6B310047D866 /* SynthElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EFFF411FBF6B310047D866 /* SynthElement.cpp */; };
+		B5EFFF4A1FBF6B310047D866 /* SynthElement.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFFF421FBF6B310047D866 /* SynthElement.h */; };
+		B5EFFF4B1FBF6B310047D866 /* SynthEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFFF431FBF6B310047D866 /* SynthEvent.h */; };
+		B5EFFF4C1FBF6B310047D866 /* SynthNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EFFF441FBF6B310047D866 /* SynthNote.cpp */; };
+		B5EFFF4D1FBF6B310047D866 /* SynthNote.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFFF451FBF6B310047D866 /* SynthNote.h */; };
+		B5EFFF4E1FBF6B310047D866 /* SynthNoteList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EFFF461FBF6B310047D866 /* SynthNoteList.cpp */; };
+		B5EFFF4F1FBF6B310047D866 /* SynthNoteList.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFFF471FBF6B310047D866 /* SynthNoteList.h */; };
+		B5EFFF521FBF6B620047D866 /* MusicDeviceBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EFFF501FBF6B620047D866 /* MusicDeviceBase.cpp */; };
+		B5EFFF531FBF6B620047D866 /* MusicDeviceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFFF511FBF6B620047D866 /* MusicDeviceBase.h */; };
 		B7B1B1B711884EC700F5640E /* AUMidiPassThru.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7B1B1B611884EC700F5640E /* AUMidiPassThru.cpp */; };
 /* End PBXBuildFile section */
 
@@ -165,6 +177,18 @@
 		8D01CCD10486CAD60068D4B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D01CCD20486CAD60068D4B7 /* AUMidiPassThru.component */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUMidiPassThru.component; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EFFF341FBF64AF0047D866 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		B5EFFF3C1FBF6A270047D866 /* AUInstrumentBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUInstrumentBase.cpp; sourceTree = "<group>"; };
+		B5EFFF3D1FBF6A270047D866 /* AUInstrumentBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUInstrumentBase.h; sourceTree = "<group>"; };
+		B5EFFF401FBF6B310047D866 /* MIDIControlHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIControlHandler.h; sourceTree = "<group>"; };
+		B5EFFF411FBF6B310047D866 /* SynthElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SynthElement.cpp; sourceTree = "<group>"; };
+		B5EFFF421FBF6B310047D866 /* SynthElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthElement.h; sourceTree = "<group>"; };
+		B5EFFF431FBF6B310047D866 /* SynthEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthEvent.h; sourceTree = "<group>"; };
+		B5EFFF441FBF6B310047D866 /* SynthNote.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SynthNote.cpp; sourceTree = "<group>"; };
+		B5EFFF451FBF6B310047D866 /* SynthNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthNote.h; sourceTree = "<group>"; };
+		B5EFFF461FBF6B310047D866 /* SynthNoteList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SynthNoteList.cpp; sourceTree = "<group>"; };
+		B5EFFF471FBF6B310047D866 /* SynthNoteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthNoteList.h; sourceTree = "<group>"; };
+		B5EFFF501FBF6B620047D866 /* MusicDeviceBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MusicDeviceBase.cpp; sourceTree = "<group>"; };
+		B5EFFF511FBF6B620047D866 /* MusicDeviceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDeviceBase.h; sourceTree = "<group>"; };
 		B7B1B1B611884EC700F5640E /* AUMidiPassThru.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUMidiPassThru.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -274,7 +298,17 @@
 		828C7FF418B2E7EB000C723A /* AUInstrumentBase */ = {
 			isa = PBXGroup;
 			children = (
+				B5EFFF3C1FBF6A270047D866 /* AUInstrumentBase.cpp */,
+				B5EFFF3D1FBF6A270047D866 /* AUInstrumentBase.h */,
 				828C7FF518B2E7EB000C723A /* LockFreeFIFO.h */,
+				B5EFFF401FBF6B310047D866 /* MIDIControlHandler.h */,
+				B5EFFF411FBF6B310047D866 /* SynthElement.cpp */,
+				B5EFFF421FBF6B310047D866 /* SynthElement.h */,
+				B5EFFF431FBF6B310047D866 /* SynthEvent.h */,
+				B5EFFF441FBF6B310047D866 /* SynthNote.cpp */,
+				B5EFFF451FBF6B310047D866 /* SynthNote.h */,
+				B5EFFF461FBF6B310047D866 /* SynthNoteList.cpp */,
+				B5EFFF471FBF6B310047D866 /* SynthNoteList.h */,
 			);
 			path = AUInstrumentBase;
 			sourceTree = "<group>";
@@ -282,6 +316,8 @@
 		828C7FF618B2E7EB000C723A /* OtherBases */ = {
 			isa = PBXGroup;
 			children = (
+				B5EFFF501FBF6B620047D866 /* MusicDeviceBase.cpp */,
+				B5EFFF511FBF6B620047D866 /* MusicDeviceBase.h */,
 				828C7FF718B2E7EB000C723A /* AUEffectBase.cpp */,
 				828C7FF818B2E7EB000C723A /* AUEffectBase.h */,
 				828C7FF918B2E7EB000C723A /* AUMIDIBase.cpp */,
@@ -363,6 +399,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EFFF4D1FBF6B310047D866 /* SynthNote.h in Headers */,
+				B5EFFF3F1FBF6A270047D866 /* AUInstrumentBase.h in Headers */,
 				828C803318B2E7EB000C723A /* AUScopeElement.h in Headers */,
 				828C804018B2E7EB000C723A /* AUBuffer.h in Headers */,
 				828C804118B2E7EB000C723A /* AUSilentTimeout.h in Headers */,
@@ -372,6 +410,7 @@
 				828C804518B2E7EB000C723A /* CAAudioChannelLayout.h in Headers */,
 				828C804218B2E7EB000C723A /* CAAtomic.h in Headers */,
 				828C804718B2E7EB000C723A /* CAAUMIDIMap.h in Headers */,
+				B5EFFF531FBF6B620047D866 /* MusicDeviceBase.h in Headers */,
 				828C804C18B2E7EB000C723A /* CABufferList.h in Headers */,
 				828C806218B2E7EB000C723A /* CAVectorUnit.h in Headers */,
 				828C805A18B2E7EB000C723A /* CAMath.h in Headers */,
@@ -384,6 +423,7 @@
 				828C803618B2E7EB000C723A /* LockFreeFIFO.h in Headers */,
 				828C805918B2E7EB000C723A /* CALogMacros.h in Headers */,
 				828C805118B2E7EB000C723A /* CADebugMacros.h in Headers */,
+				B5EFFF4B1FBF6B310047D866 /* SynthEvent.h in Headers */,
 				828C805818B2E7EB000C723A /* CAHostTimeBase.h in Headers */,
 				828C806318B2E7EB000C723A /* CAVectorUnitTypes.h in Headers */,
 				828C805418B2E7EB000C723A /* CAException.h in Headers */,
@@ -392,12 +432,15 @@
 				828C804918B2E7EB000C723A /* CAAUMIDIMapManager.h in Headers */,
 				828C805318B2E7EB000C723A /* CADebugPrintf.h in Headers */,
 				828C803E18B2E7EB000C723A /* AUBaseHelper.h in Headers */,
+				B5EFFF4A1FBF6B310047D866 /* SynthElement.h in Headers */,
 				828C806018B2E7EB000C723A /* CAThreadSafeList.h in Headers */,
 				828C805F18B2E7EB000C723A /* CAStreamBasicDescription.h in Headers */,
 				828C803A18B2E7EB000C723A /* AUMIDIBase.h in Headers */,
 				828C804F18B2E7EB000C723A /* CADebugger.h in Headers */,
+				B5EFFF4F1FBF6B310047D866 /* SynthNoteList.h in Headers */,
 				828C804318B2E7EB000C723A /* CAAtomicStack.h in Headers */,
 				8BC6025C073B072D006C4272 /* AUMidiPassThru.h in Headers */,
+				B5EFFF481FBF6B310047D866 /* MIDIControlHandler.h in Headers */,
 				828C805C18B2E7EB000C723A /* CAMutex.h in Headers */,
 				828C804D18B2E7EB000C723A /* CAByteOrder.h in Headers */,
 				828C805618B2E7EB000C723A /* CAGuard.h in Headers */,
@@ -485,6 +528,7 @@
 				828C803918B2E7EB000C723A /* AUMIDIBase.cpp in Sources */,
 				829800AD18B7FD9800C0E786 /* AUBase.cpp in Sources */,
 				828C803218B2E7EB000C723A /* AUScopeElement.cpp in Sources */,
+				B5EFFF491FBF6B310047D866 /* SynthElement.cpp in Sources */,
 				828C803B18B2E7EB000C723A /* AUMIDIEffectBase.cpp in Sources */,
 				828C803D18B2E7EB000C723A /* AUBaseHelper.cpp in Sources */,
 				2BF526861C56F28000F7FFCB /* ComponentBase.cpp in Sources */,
@@ -495,15 +539,19 @@
 				828C805E18B2E7EB000C723A /* CAStreamBasicDescription.cpp in Sources */,
 				828C804618B2E7EB000C723A /* CAAUMIDIMap.cpp in Sources */,
 				828C804B18B2E7EB000C723A /* CABufferList.cpp in Sources */,
+				B5EFFF4E1FBF6B310047D866 /* SynthNoteList.cpp in Sources */,
 				828C802E18B2E7EB000C723A /* AUOutputElement.cpp in Sources */,
 				B7B1B1B711884EC700F5640E /* AUMidiPassThru.cpp in Sources */,
+				B5EFFF521FBF6B620047D866 /* MusicDeviceBase.cpp in Sources */,
 				828C805518B2E7EB000C723A /* CAGuard.cpp in Sources */,
 				828C803018B2E7EB000C723A /* AUPlugInDispatch.cpp in Sources */,
 				828C804818B2E7EB000C723A /* CAAUMIDIMapManager.cpp in Sources */,
 				828C805218B2E7EB000C723A /* CADebugPrintf.cpp in Sources */,
 				828C805018B2E7EB000C723A /* CADebugMacros.cpp in Sources */,
+				B5EFFF4C1FBF6B310047D866 /* SynthNote.cpp in Sources */,
 				828C806118B2E7EB000C723A /* CAVectorUnit.cpp in Sources */,
 				829800AE18B7FE0100C0E786 /* AUEffectBase.cpp in Sources */,
+				B5EFFF3E1FBF6A270047D866 /* AUInstrumentBase.cpp in Sources */,
 				828C804418B2E7EB000C723A /* CAAudioChannelLayout.cpp in Sources */,
 				828C802C18B2E7EB000C723A /* AUInputElement.cpp in Sources */,
 			);

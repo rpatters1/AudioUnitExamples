@@ -11,12 +11,12 @@ MIDI Processor AU
 
 #include "AUMidiPassThruVersion.h"
 #include <CoreMIDI/CoreMIDI.h>
-#include "AUMIDIEffectBase.h"
+#include "AUInstrumentBase.h"
 #include "LockFreeFIFO.h"
 
 
 #pragma mark - AUMidiPassThru
-class AUMidiPassThru : public AUMIDIEffectBase
+class AUMidiPassThru : public AUInstrumentBase
 {
 public:
 	AUMidiPassThru(AudioUnit component);
