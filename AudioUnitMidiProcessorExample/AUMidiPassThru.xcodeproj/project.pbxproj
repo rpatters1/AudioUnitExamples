@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		264C7A741647F82F0090191C /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264C7A731647F82F0090191C /* CoreMIDI.framework */; };
 		2BF526861C56F28000F7FFCB /* ComponentBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 828C7FF218B2E7EB000C723A /* ComponentBase.cpp */; };
 		2BF526871C56F28300F7FFCB /* ComponentBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 828C7FF318B2E7EB000C723A /* ComponentBase.h */; };
 		828C802918B2E7EB000C723A /* AUBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 828C7FE718B2E7EB000C723A /* AUBase.h */; };
@@ -75,6 +74,7 @@
 		8BA4AE5C073EB79000A2709A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA4AE5B073EB79000A2709A /* Cocoa.framework */; };
 		8BC6025C073B072D006C4272 /* AUMidiPassThru.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC6025B073B072D006C4272 /* AUMidiPassThru.h */; };
 		8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		B5EFFF351FBF64AF0047D866 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EFFF341FBF64AF0047D866 /* CoreMIDI.framework */; };
 		B7B1B1B711884EC700F5640E /* AUMidiPassThru.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7B1B1B611884EC700F5640E /* AUMidiPassThru.cpp */; };
 /* End PBXBuildFile section */
 
@@ -92,7 +92,6 @@
 
 /* Begin PBXFileReference section */
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		264C7A731647F82F0090191C /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = ../../../../../System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<group>"; };
 		2BB9A5ED1C65574D00B8A7CF /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		828C7FE618B2E7EB000C723A /* AUBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUBase.cpp; sourceTree = "<group>"; };
 		828C7FE718B2E7EB000C723A /* AUBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUBase.h; sourceTree = "<group>"; };
@@ -154,7 +153,6 @@
 		828C802518B2E7EB000C723A /* CAVectorUnitTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAVectorUnitTypes.h; sourceTree = "<group>"; };
 		828C802618B2E7EB000C723A /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
 		828C802718B2E7EB000C723A /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
-		829800AB18B7E4A700C0E786 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		82E3290018B6BB4000D6B2A3 /* AUMidiPassThruTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AUMidiPassThruTest.cpp; sourceTree = "<group>"; };
 		8BA05A670720730100365D66 /* AUMidiPassThru.exp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.exports; path = AUMidiPassThru.exp; sourceTree = "<group>"; };
 		8BA05A690720730100365D66 /* AUMidiPassThruVersion.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUMidiPassThruVersion.h; sourceTree = "<group>"; };
@@ -166,6 +164,7 @@
 		8BC6025B073B072D006C4272 /* AUMidiPassThru.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUMidiPassThru.h; sourceTree = "<group>"; };
 		8D01CCD10486CAD60068D4B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D01CCD20486CAD60068D4B7 /* AUMidiPassThru.component */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUMidiPassThru.component; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EFFF341FBF64AF0047D866 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		B7B1B1B611884EC700F5640E /* AUMidiPassThru.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUMidiPassThru.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,7 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				264C7A741647F82F0090191C /* CoreMIDI.framework in Frameworks */,
+				B5EFFF351FBF64AF0047D866 /* CoreMIDI.framework in Frameworks */,
 				8BA05AFC072074E100365D66 /* AudioToolbox.framework in Frameworks */,
 				8BA05AFD072074E100365D66 /* AudioUnit.framework in Frameworks */,
 				8BA05B02072074F900365D66 /* CoreServices.framework in Frameworks */,
@@ -200,8 +199,7 @@
 		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				829800AB18B7E4A700C0E786 /* CoreFoundation.framework */,
-				264C7A731647F82F0090191C /* CoreMIDI.framework */,
+				B5EFFF341FBF64AF0047D866 /* CoreMIDI.framework */,
 				8BA4AE5B073EB79000A2709A /* Cocoa.framework */,
 				8BA05B01072074F900365D66 /* CoreServices.framework */,
 				8BA05AF9072074E100365D66 /* AudioToolbox.framework */,
@@ -436,7 +434,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 			};
 			buildConfigurationList = 3E0BED060898391C00E1F0F7 /* Build configuration list for PBXProject "AUMidiPassThru" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -551,11 +549,12 @@
 		3E0BED070898391C00E1F0F7 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Library/Audio/Plug-Ins/Components";
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = "$(OBSOLETE_SDKS)/MacOSX10.11.sdk";
 				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Development;
@@ -565,7 +564,7 @@
 			buildSettings = {
 				GCC_C_LANGUAGE_STANDARD = c99;
 				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = macosx;
+				SDKROOT = "$(OBSOLETE_SDKS)/MacOSX10.11.sdk";
 				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Deployment;
